@@ -11,18 +11,12 @@
     <name>designer</name>
     <description>designer project for Spring Boot</description>
 
-    <repositories>
-        <repository>
-            <id>lorne</id>
-            <url>https://1991wangliang.github.io/repository</url>
-        </repository>
-    </repositories>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.4.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <properties>
@@ -38,7 +32,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -62,9 +55,7 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-
     </dependencies>
-
 
 
     <build>
